@@ -17,7 +17,17 @@ html, body {
 }
 
 body{
-	background-image: linear-gradient(to right top, #5433FF, #20BDFF, #A5FECB);
+	/* background-image: linear-gradient(to right top, #5433FF, #20BDFF, #A5FECB);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat; */
+	background: linear-gradient(253deg, #0cc898, #1797d2, #864fe1);
+    background-size: 600% 600%;
+    -webkit-animation: Background 25s ease infinite;
+    -moz-animation: Background 25s ease infinite;
+    animation: Background 25s ease infinite;
 
 }
 ol{
